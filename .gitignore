@@ -1,0 +1,41 @@
+# Bu fayl Git-in hansı faylları və qovluqları izləməməli olduğunu təyin edir.
+
+# Virtual Mühit
+# ------------------------------------------------------------------------------
+venv/
+env/
+.venv/
+.env/
+
+# Python-un yaratdığı fayllar
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Databazalar
+# ------------------------------------------------------------------------------
+db.sqlite3
+db.sqlite3-journal
+
+# IDE və Editor Ayarları (PyCharm, VSCode)
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+
+# Django-nun yaratdığı fayllar
+# ------------------------------------------------------------------------------
+*.log
+local_settings.py
+
+# Media və Statik fayllar (Deployment zamanı yaradılır)
+# ------------------------------------------------------------------------------
+/media/
+/static/
+
+# Environment Variables faylı (Təhlükəsizlik üçün!)
+# ------------------------------------------------------------------------------
+.env
+.env.*
